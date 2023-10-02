@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estudiantes</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        input[type="text"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Estudiantes</h1>
+
+
+    <!-- Tabla de Estudiantes -->
+    <table>
+        <thead>
+            <tr>
+                <th>Número de Estudiante</th>
+                <th>Foto</th>
+                <th>Alumno</th>
+                <th>Apellidos y Nombres</th>
+                <th>Programa de Estudio</th>
+                <th>Modalidad</th>
+                <th>Turno</th>
+                <th>Número de Celular</th>
+                <th>Correo</th>
+                <th>Asistencia</th>
+                <th>Observación</th>
+            </tr>
+            <tr>
+                <th><input type="text" id="buscarEstudiante" placeholder="Buscar por alumno"></th>
+                <th></th>
+                <th></th>
+                <th><input type="text" id="buscarApellidos" placeholder="Buscar por apellidos y nombres"></th>
+                <th><input type="text" id="buscarPrograma" placeholder="Buscar por programa de estudio"></th>
+                <th><input type="text" id="buscarModalidad" placeholder="Buscar por modalidad"></th>
+                <th><input type="text" id="buscarTorno" placeholder="Buscar por turno"></th>
+                <th><input type="text" id="buscarCelular" placeholder="Buscar por número de celular"></th>
+                <th><input type="text" id="buscarCorreo" placeholder="Buscar por correo"></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí debes agregar las filas de datos de los estudiantes -->
+            <tr>
+                <td>1</td>
+                <td><img src="miprimeraweb/JPG/hombre.jpg" alt="Foto Estudiante 1" width="50"></td>
+                <td>7649739</td>
+                <td>Juan Martínez García</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>97620732</td>
+                <td>juanmatenez@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 2" width="50"></td>
+                <td>7649746</td>
+                <td>Carlos González Pérez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>92786062</td>
+                <td>calosganzalez@egmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            <tr>
+                <td>3</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 1" width="50"></td>
+                <td>7649732</td>
+                <td>David Hernández Gómez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>98760276</td>
+                <td>davidhernadez@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 2" width="50"></td>
+                <td>7649734</td>
+                <td>Javier Díaz Ruiz</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>90063728</td>
+                <td>Javierdiasruiz@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>            <tr>
+                <td>5</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 1" width="50"></td>
+                <td>7649790</td>
+                <td>Pablo Rodríguez Martínez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>93377096</td>
+                <td>pablorodriguez@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 2" width="50"></td>
+                <td>7649765</td>
+                <td>José Martín Díaz</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>98300883</td>
+                <td>josemartindiaz@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>            <tr>
+                <td>7</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 1" width="50"></td>
+                <td>7649727</td>
+                <td>Miguel gómez sánchez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>98303483</td>
+                <td>miguelgomez@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 2" width="50"></td>
+                <td>7649731</td>
+                <td>Alejandro García Martínez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>99993086</td>
+                <td>alejandrogarcia@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>            <tr>
+                <td>9</td>
+                <td><img src="miprimeraweb/JPG/hombre2.jpg" alt="Foto Estudiante 1" width="50"></td>
+                <td>7649711</td>
+                <td>Pedro López Sánchez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>1234567890</td>
+                <td>pedrolopez@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><img src="miprimeraweb/JPG/hombre3.jpg" alt="Foto Estudiante 2" width="50"></td>
+                <td>7649723</td>
+                <td>Manuel Ruiz Pérez</td>
+                <td>Ingenierìa de sistemas e infomatica</td>
+                <td>Presencial</td>
+                <td>Mañana</td>
+                <td>97530926</td>
+                <td>manuelruiz@gmail.com</td>
+                <td>Asistiò</td>
+                <td>Observación</td>
+            </tr>
+            <!-- Agrega más filas de estudiantes aquí -->
+            
+        </tbody>
+    </table>
+
+    <script>
+        // Función de búsqueda por nombre del alumno
+        document.getElementById('buscarEstudiante').addEventListener('input', function () {
+            const texto = this.value.toLowerCase();
+            const filas = document.querySelectorAll('tbody tr');
+            
+            filas.forEach((fila) => {
+                const alumno = fila.querySelector('td:nth-child(3)').textContent.toLowerCase();
+                fila.style.display = alumno.includes(texto) ? '' : 'none';
+            });
+        });
+
+        // Función de búsqueda por apellidos y nombres
+        document.getElementById('buscarApellidos').addEventListener('input', function () {
+            const texto = this.value.toLowerCase();
+            const filas = document.querySelectorAll('tbody tr');
+            
+            filas.forEach((fila) => {
+                const apellidosNombres = fila.querySelector('td:nth-child(4)').textContent.toLowerCase();
+                fila.style.display = apellidosNombres.includes(texto) ? '' : 'none';
+            });
+        });
+
+        // Repite las funciones de búsqueda para los otros campos (programa, modalidad, turno, celular, correo) de manera similar.
+    </script>
+</body>
+</html>
